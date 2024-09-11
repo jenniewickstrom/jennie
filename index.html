@@ -5,8 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hundraser Information</title>
     <link rel="stylesheet" href="styles.css">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-596T8W63');</script>
+<!-- End Google Tag Manager --> 
+
 </head>
 <body>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-596T8W63"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
     <header>
         <h1>Välkommen till Hundraser Information</h1>
     </header>
@@ -20,33 +34,39 @@
     </nav>
 
     <main>
-        <section id="labrador">
-            <h2>Labrador Retriever</h2>
+        <section id="labrador" class="dog-section">
             <img src="labrador.jpg" alt="Labrador Retriever">
-            <p>Labradoren är en av de mest populära hundraserna i världen. De är vänliga, intelligenta och lättlärda. Labradorer kräver regelbunden motion och mental stimulans.</p>
-            <button onclick="showInfo('labradorInfo')">Läs mer om Labradors välfärd</button>
-            <div id="labradorInfo" class="info">
-                <p>Att tänka på: Labradorer kan bli överviktiga om de inte får tillräckligt med motion och rätt kost. De behöver också socialt umgänge för att hålla sig glada och hälsosamma.</p>
+            <div class="content">
+                <h2>Labrador Retriever</h2>
+                <p>Labradoren är en av de mest populära hundraserna i världen. De är vänliga, intelligenta och lättlärda. Labradorer kräver regelbunden motion och mental stimulans.</p>
+                <button onclick="showInfo('labradorInfo')">Läs mer om Labradors välfärd</button>
+                <div id="labradorInfo" class="info">
+                    <p>Att tänka på: Labradorer kan bli överviktiga om de inte får tillräckligt med motion och rätt kost. De behöver också socialt umgänge för att hålla sig glada och hälsosamma.</p>
+                </div>
             </div>
         </section>
 
-        <section id="bulldog">
-            <h2>Engelsk Bulldog</h2>
+        <section id="bulldog" class="dog-section">
             <img src="bulldog.jpg" alt="Engelsk Bulldog">
-            <p>Engelska bulldogar är kända för sin vänliga natur och lugna temperament. De har dock vissa hälsoproblem som kräver uppmärksamhet.</p>
-            <button onclick="showInfo('bulldogInfo')">Läs mer om Bulldogs välfärd</button>
-            <div id="bulldogInfo" class="info">
-                <p>Att tänka på: Bulldogs kan ha andningsproblem på grund av deras korta nos. Det är viktigt att undvika överansträngning, särskilt i varmt väder.</p>
+            <div class="content">
+                <h2>Engelsk Bulldog</h2>
+                <p>Engelska bulldogar är kända för sin vänliga natur och lugna temperament. De har dock vissa hälsoproblem som kräver uppmärksamhet.</p>
+                <button onclick="showInfo('bulldogInfo')">Läs mer om Bulldogs välfärd</button>
+                <div id="bulldogInfo" class="info">
+                    <p>Att tänka på: Bulldogs kan ha andningsproblem på grund av deras korta nos. Det är viktigt att undvika överansträngning, särskilt i varmt väder.</p>
+                </div>
             </div>
         </section>
 
-        <section id="germanshepherd">
-            <h2>Schäfer</h2>
+        <section id="germanshepherd" class="dog-section">
             <img src="germanshepherd.jpg" alt="Schäfer">
-            <p>Schäfer är en mycket intelligent och mångsidig hundras. De är ofta använda som tjänstehundar på grund av deras höga arbetskapacitet.</p>
-            <button onclick="showInfo('germanshepherdInfo')">Läs mer om Schäfers välfärd</button>
-            <div id="germanshepherdInfo" class="info">
-                <p>Att tänka på: Schäferhundar behöver mycket motion och mental stimulans. De kan utveckla ledproblem om de inte får rätt vård och träning.</p>
+            <div class="content">
+                <h2>Schäfer</h2>
+                <p>Schäfer är en mycket intelligent och mångsidig hundras. De är ofta använda som tjänstehundar på grund av deras höga arbetskapacitet.</p>
+                <button onclick="showInfo('germanshepherdInfo')">Läs mer om Schäfers välfärd</button>
+                <div id="germanshepherdInfo" class="info">
+                    <p>Att tänka på: Schäferhundar behöver mycket motion och mental stimulans. De kan utveckla ledproblem om de inte får rätt vård och träning.</p>
+                </div>
             </div>
         </section>
     </main>
